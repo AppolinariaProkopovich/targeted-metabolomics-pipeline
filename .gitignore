@@ -1,0 +1,42 @@
+# R session and IDE files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Local study configuration
+config/config.R
+.env
+
+# Raw, processed, and exported data
+/data/*
+!/data/README.md
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.xls
+*.rds
+*.RDS
+*.RData
+*.h5
+*.hdf5
+*.mzML
+*.mzXML
+
+# Generated analysis outputs
+/results/*
+!/results/README.md
+figures/
+tables/
+*.pdf
+*.png
+*.svg
+*.html
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
